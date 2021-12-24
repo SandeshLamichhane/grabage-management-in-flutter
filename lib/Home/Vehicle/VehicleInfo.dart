@@ -84,8 +84,7 @@ Circle circle;
                      ),
                      
                      padding: EdgeInsets.only(left: 20.0, right: 20.0 , top: 20.0),
-                   //mainly for animatiom
-                     
+                   //mainly for animatiom                 
                      child: 
                       selected?  vehiclecontainer():
                      Column(
