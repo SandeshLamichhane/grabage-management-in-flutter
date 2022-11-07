@@ -29,7 +29,13 @@ class FirebaseDatabase {
 //lets create a future for sign in
 
   /////////////////////////////////////////CREATE ACOOUNT WITH EMAIL AND PASSWORD RETURN USER CREDENTIAL IF SUCCESS
-  login_with_emailpassword(
+ loginwithfacebookCredential(){
+ //for test purpose i have added this
+ 
+ }
+ 
+ 
+ login_with_emailpassword(
       {String email,
       String password,
       bool rememberMe,
